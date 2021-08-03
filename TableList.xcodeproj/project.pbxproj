@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		420D0D5826B93537002015C9 /* DetailMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D0D5726B93537002015C9 /* DetailMovieViewController.swift */; };
+		420D0D5A26B94975002015C9 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D0D5926B94975002015C9 /* Movie.swift */; };
 		42A1B5A526B84D0500160CCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A1B5A426B84D0500160CCF /* AppDelegate.swift */; };
 		42A1B5A726B84D0500160CCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A1B5A626B84D0500160CCF /* SceneDelegate.swift */; };
 		42A1B5AC26B84D0500160CCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A1B5AA26B84D0500160CCF /* Main.storyboard */; };
@@ -18,11 +19,11 @@
 		42A1B5C126B8542E00160CCF /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A1B5C026B8542E00160CCF /* Song.swift */; };
 		42A1B5C326B8553500160CCF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A1B5C226B8553500160CCF /* DataManager.swift */; };
 		42A1B5C526B858E300160CCF /* DetailMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A1B5C426B858E300160CCF /* DetailMusicViewController.swift */; };
-		42A1B5C726B85FEE00160CCF /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A1B5C626B85FEE00160CCF /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		420D0D5726B93537002015C9 /* DetailMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieViewController.swift; sourceTree = "<group>"; };
+		420D0D5926B94975002015C9 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		42A1B5A126B84D0500160CCF /* TableList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A1B5A426B84D0500160CCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42A1B5A626B84D0500160CCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +36,6 @@
 		42A1B5C026B8542E00160CCF /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		42A1B5C226B8553500160CCF /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		42A1B5C426B858E300160CCF /* DetailMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMusicViewController.swift; sourceTree = "<group>"; };
-		42A1B5C626B85FEE00160CCF /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,6 @@
 				42A1B5BC26B84F9200160CCF /* MusicTableViewController.swift */,
 				42A1B5C426B858E300160CCF /* DetailMusicViewController.swift */,
 				42A1B5BE26B84FAA00160CCF /* MovieTableViewController.swift */,
-				42A1B5C626B85FEE00160CCF /* MovieTableViewCell.swift */,
 				420D0D5726B93537002015C9 /* DetailMovieViewController.swift */,
 			);
 			path = Controller;
@@ -112,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				42A1B5C026B8542E00160CCF /* Song.swift */,
+				420D0D5926B94975002015C9 /* Movie.swift */,
 				42A1B5C226B8553500160CCF /* DataManager.swift */,
 			);
 			path = Model;
@@ -191,10 +191,10 @@
 				420D0D5826B93537002015C9 /* DetailMovieViewController.swift in Sources */,
 				42A1B5C326B8553500160CCF /* DataManager.swift in Sources */,
 				42A1B5A526B84D0500160CCF /* AppDelegate.swift in Sources */,
+				420D0D5A26B94975002015C9 /* Movie.swift in Sources */,
 				42A1B5A726B84D0500160CCF /* SceneDelegate.swift in Sources */,
 				42A1B5BD26B84F9200160CCF /* MusicTableViewController.swift in Sources */,
 				42A1B5C526B858E300160CCF /* DetailMusicViewController.swift in Sources */,
-				42A1B5C726B85FEE00160CCF /* MovieTableViewCell.swift in Sources */,
 				42A1B5C126B8542E00160CCF /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -170,30 +170,39 @@
                                                 <constraint firstAttribute="width" constant="122" id="L79-c7-L8h"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jurrastic Park" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xmb-JA-vJj">
-                                            <rect key="frame" x="159" y="68" width="235" height="25"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="51" id="nIr-5n-B9q"/>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="235" id="oyh-Sf-VMP"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
+                                        <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="8O4-SI-ibb">
+                                            <rect key="frame" x="159" y="68" width="235" height="116"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xmb-JA-vJj">
+                                                    <rect key="frame" x="0.0" y="0.0" width="235" height="51"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="235" id="EGl-dY-c7V"/>
+                                                        <constraint firstAttribute="height" constant="51" id="L4F-bv-uWe"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZe-3H-hHy">
+                                                    <rect key="frame" x="0.0" y="65" width="235" height="51"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="235" id="Rm7-af-FFs"/>
+                                                        <constraint firstAttribute="height" constant="51" id="bLl-lO-Ep1"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="Xmb-JA-vJj" secondAttribute="bottom" constant="155" id="6wK-ub-jr8"/>
-                                        <constraint firstItem="Xmb-JA-vJj" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="crM-GE-vOl" secondAttribute="trailing" constant="8" symbolic="YES" id="DsQ-oj-NAn"/>
                                         <constraint firstItem="crM-GE-vOl" firstAttribute="top" secondItem="AJc-UM-BgE" secondAttribute="topMargin" constant="16" id="EID-it-XFT"/>
                                         <constraint firstItem="crM-GE-vOl" firstAttribute="bottom" secondItem="AJc-UM-BgE" secondAttribute="bottomMargin" constant="15" id="Mqa-Mv-VhS"/>
-                                        <constraint firstItem="Xmb-JA-vJj" firstAttribute="top" secondItem="AJc-UM-BgE" secondAttribute="topMargin" constant="57" id="N37-Tr-2Un"/>
                                         <constraint firstItem="crM-GE-vOl" firstAttribute="leading" secondItem="AJc-UM-BgE" secondAttribute="leadingMargin" id="Vs2-Qu-XGs"/>
-                                        <constraint firstAttribute="trailing" secondItem="Xmb-JA-vJj" secondAttribute="trailing" constant="20" id="m1i-kp-T4K"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="movieImageView" destination="crM-GE-vOl" id="X3m-eY-4AZ"/>
-                                    <outlet property="movieLabel" destination="Xmb-JA-vJj" id="fxX-gF-gYU"/>
                                     <segue destination="CHh-R4-ZVl" kind="show" id="Fuo-8q-THP"/>
                                 </connections>
                             </tableViewCell>
@@ -260,6 +269,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="oUu-DM-afe"/>
+                    <connections>
+                        <outlet property="movieImageView" destination="AOa-wD-15d" id="6DU-Df-bs4"/>
+                        <outlet property="movieTitleView" destination="jYX-kc-Rxk" id="ItI-zp-L2h"/>
+                        <outlet property="movieYearView" destination="Ipm-IW-8EY" id="fYE-gP-2Ng"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XxL-6C-gre" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

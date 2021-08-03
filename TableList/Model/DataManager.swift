@@ -9,7 +9,7 @@ import Foundation
 
 
 class DataManager {
-
+    
     static let shared = DataManager()
     
     var track = [
@@ -26,6 +26,7 @@ class DataManager {
         "Tylor the Creator",
         "YG",
     ]
+    
     var album = [
         "Dedicated",
         "father of",
@@ -53,5 +54,46 @@ class DataManager {
         "Skillet - Victory",
         "Tylor the Creator - IGOR",
         "YG - Stop Snitching",
+    ]
+    
+    var poster = [
+        "TheGodfather",
+        "Ghostbusters",
+        "JurassicPark",
+        "ForrestGump",
+        "TheShawshankRedemption",
+        "TheMatrix",
+        "TheDarkKnight",
+        "AvengersEndgame",
+        "KnivesOut",
+        "TheSuicideSquad",
+        "RayaAndTheLastDragon",
+    ]
+    
+    var movieTitle = [
+        "The Godfather",
+        "Ghostbusters",
+        "Jurassic Park",
+        "Forrest Gump",
+        "The Shawshank Redemption",
+        "The Matrix",
+        "The Dark Knight",
+        "Avengers: Endgame",
+        "Knives Out",
+        "The Suicide Squad",
+        "Raya and the Last Dragon",
+    ]
+    var year = [
+        "(1972)",
+        "(1984)",
+        "(1993)",
+        "(1994)",
+        "(1994)",
+        "(1999)",
+        "(2008)",
+        "(2019)",
+        "(2019)",
+        "(2021)",
+        "(2021)",
     ]
 }
