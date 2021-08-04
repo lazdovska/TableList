@@ -59,14 +59,14 @@ class DataManager {
     var poster = [
         "TheGodfather.jpg",
         "Ghostbusters.jpg",
-        "JurassicPark.jpg",
+        "jp.jpg",
         "ForrestGump.jpg",
         "TheShawshankRedemption.jpg",
         "TheMatrix.jpg",
         "TheDarkKnight.jpg",
         "AvengersEndgame.jpg",
         "KnivesOut.jpg",
-        "TheSuicideSquad.jpg",
+        "SuicideSquad.jpg",
         "RayaAndTheLastDragon.jpeg",
     ]
     
@@ -80,7 +80,7 @@ class DataManager {
         "The Dark Knight",
         "Avengers: Endgame",
         "Knives Out",
-        "The Suicide Squad",
+        "Suicide Squad",
         "Raya and the Last Dragon",
     ]
     var year = [
