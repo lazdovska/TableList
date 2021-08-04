@@ -59,7 +59,7 @@
         <!--Detail Music View Controller-->
         <scene sceneID="Rlf-DM-9uZ">
             <objects>
-                <viewController id="MYH-SC-aQF" customClass="DetailMusicViewController" customModule="TableList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="MYH-SC-aQF" customClass="DetailMusicViewController" customModule="TableList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yOY-k5-kK0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -226,7 +226,7 @@
         <!--Detail Movie View Controller-->
         <scene sceneID="xwm-0m-ZZa">
             <objects>
-                <viewController id="CHh-R4-ZVl" customClass="DetailMovieViewController" customModule="TableList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="CHh-R4-ZVl" customClass="DetailMovieViewController" customModule="TableList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VRH-i3-Mde">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
