@@ -203,6 +203,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="movieImageView" destination="crM-GE-vOl" id="9h2-ow-WC7"/>
+                                    <outlet property="movieLabel" destination="Xmb-JA-vJj" id="1sf-rE-FTo"/>
+                                    <outlet property="movieYearLabel" destination="qZe-3H-hHy" id="BeE-m8-bxY"/>
                                     <segue destination="CHh-R4-ZVl" kind="show" id="Fuo-8q-THP"/>
                                 </connections>
                             </tableViewCell>

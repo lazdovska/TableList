@@ -57,17 +57,17 @@ class DataManager {
     ]
     
     var poster = [
-        "TheGodfather",
-        "Ghostbusters",
-        "JurassicPark",
-        "ForrestGump",
-        "TheShawshankRedemption",
-        "TheMatrix",
-        "TheDarkKnight",
-        "AvengersEndgame",
-        "KnivesOut",
-        "TheSuicideSquad",
-        "RayaAndTheLastDragon",
+        "TheGodfather.jpg",
+        "Ghostbusters.jpg",
+        "JurassicPark.jpg",
+        "ForrestGump.jpg",
+        "TheShawshankRedemption.jpg",
+        "TheMatrix.jpg",
+        "TheDarkKnight.jpg",
+        "AvengersEndgame.jpg",
+        "KnivesOut.jpg",
+        "TheSuicideSquad.jpg",
+        "RayaAndTheLastDragon.jpeg",
     ]
     
     var movieTitle = [
